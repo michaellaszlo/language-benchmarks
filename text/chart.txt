@@ -1,0 +1,9 @@
+Ruby = r, Python = p, JavaScript = s, PHP = h, Java = j, C++ = +, C = c, Go = g
+                 r    p    s    h    j    +    c    g
+
+slurp		     r                                   
+lowercase	     r                                   
+tokenize	     r                                   
+clean		     r                                   
+count		     r                                   
+

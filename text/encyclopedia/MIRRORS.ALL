@@ -1,0 +1,25 @@
+   continent   |    nation     |    location    |                   provider                   |                                     url                                      |                                                 note                                                  
+---------------+---------------+----------------+----------------------------------------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------
+ Europe        | Bulgaria      | Sofia          | e-book Ltd.                                  | http://www.gutenberg.myebook.bg                                              | 
+ Europe        | Germany       | Aachen         | SunSITE Central Europe                       | ftp://sunsite.informatik.rwth-aachen.de/pub/mirror/ibiblio/gutenberg/        | Hosted by Rheinisch Westfälische Technische Hochschule
+ Europe        | Germany       | Hamburg        | Artfiles GmbH                                | ftp://www.artfiles.org/gutenberg.org/                                        | 
+ Europe        | Great Britain | Kent           | UK Mirror Service                            | http://www.mirrorservice.org/sites/ftp.ibiblio.org/pub/docs/books/gutenberg/ | 
+ Europe        | Great Britain | Kent           | UK Mirror Service                            | ftp://ftp.mirrorservice.org/sites/ftp.ibiblio.org/pub/docs/books/gutenberg/  | 
+ Europe        | Great Britain | Kent           | UK Mirror Service                            | rsync://rsync.mirrorservice.org/ftp.ibiblio.org/pub/docs/books/gutenberg/    | 
+ Europe        | Portugal      | Braga          | Universidade do Minho                        | ftp://eremita.di.uminho.pt/pub/gutenberg/                                    | 
+ Europe        | Portugal      | Braga          | Universidade do Minho                        | http://eremita.di.uminho.pt/gutenberg/                                       | 
+ Europe        | Sweden        | Sweden         | Swedish University Network SUNET             | ftp://ftp.sunet.se/pub/etext/gutenberg/                                      | 
+ North America | Canada        | Halifax        | Dalhousie University                         | http://mirror.its.dal.ca/gutenberg/                                          | 
+ North America | Canada        | Waterloo       | University of Waterloo Computer Science Club | http://mirror.csclub.uwaterloo.ca/gutenberg/                                 | 
+ North America | United States | Baltimore      | Sailor (Maryland Public Libraries)           | ftp://sailor.gutenberg.lib.md.us/gutenberg/                                  | 
+ North America | United States | Baltimore      | Sailor (Maryland Public Libraries)           | http://sailor.gutenberg.lib.md.us/                                           | 
+ North America | United States | Chapel Hill    | iBiblio                                      | ftp://ftp.ibiblio.org/pub/docs/books/gutenberg/                              | Main Project Gutenberg FTP Site -- If it doesn't allow access, please try the corresponding HTTP site
+ North America | United States | Chapel Hill    | iBiblio                                      | http://www.gutenberg.org/dirs/                                               | Main Project Gutenberg Collection Site
+ North America | United States | Salt Lake City | Xmission ISP - HTTP                          | http://mirrors.xmission.com/gutenberg/                                       | 
+ North America | United States | Salt Lake City | Xmission ISP - FTP                           | ftp://mirrors.xmission.com/gutenberg/                                        | 
+ North America | United States | San Diego      | Project Gutenberg                            | ftp://gutenberg.pglaf.org/mirrors/gutenberg/                                 | Includes cache/generated files (epub, mobi, etc.).
+ North America | United States | San Diego      | Project Gutenberg                            | http://gutenberg.pglaf.org/                                                  | Includes cache/generated files (epub, mobi, etc.).
+ North America | United States | Seattle        | Project Gutenberg                            | ftp://gutenberg.readingroo.ms/gutenberg/                                     | Backup to the main Project Gutenberg site.  Includes cache/generated files (epub, mobi, etc.).
+ North America | United States | Seattle        | Project Gutenberg                            | http://gutenberg.readingroo.ms/                                              | Backup to the main Project Gutenberg site.  Includes cache/generated files (epub, mobi, etc.).
+(21 rows)
+

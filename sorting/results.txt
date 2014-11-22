@@ -1,0 +1,43 @@
+
+--- Python ---
+$ ./sorting.py 1000000
+made random array in 0.521 s
+ran mergesort in 5.157 s
+data is in order: True
+
+--- Ruby ---
+$ ./sorting.rb 1000000
+made random array in 0.162 s
+ran mergesort in 3.158 s
+data is in order: true
+
+--- PHP ---
+$ ./sorting.php 1000000
+made random array in 0.364 s
+ran mergesort in 4.752
+data is in order: true
+
+--- HHVM ---
+$ hhvm ./sorting.php 1000000
+made random array in 0.121 s
+ran mergesort in 0.801
+data is in order: true
+
+--- C++ ---
+$ ./sorting 1000000
+made random array in 0.009 s
+ran mergesort in 0.085 s
+data is in order: true
+
+--- Go ---
+$ go run sorting.go 1000000
+made random array in 0.019 s
+ran mergesort in 0.118 s
+data is in order: true
+
+--- JavaScript ---
+$ echo 1000000 | d8 sorting.js
+made random array in 0.147 s
+ran mergesort in 0.722 s
+data is in order: true
+

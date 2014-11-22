@@ -1,0 +1,22 @@
+Ruby = r, Python = p, JavaScript = s, PHP = h, Java = j, C++ = +, C = c, Go = g
+
+timing with closures:
+                 r         s    h                   g
+integers:
+    heapsort     r    p    s    h    j    +    c    g
+    mergesort    r    p    s    h    j    +    c    g
+    quicksort    r    p    s    h    j    +    c    g
+    native       r    p    s    h    j    +    c    g
+strings:
+    quicksort    r    p    s    h    j    +    c    g
+    native       r    p    s    h    j    +    c    g
+objects:
+    quicksort    r    p    s    h    j    +    c    g
+    native       r    p    s    h    j    +    c    g
+
+
+Person object: { name: "bob", grade: 6 }
+
+Ruby, Python, PHP, Java: class
+JavaScript: object
+C++, C, Go: struct

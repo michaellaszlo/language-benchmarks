@@ -1,0 +1,34 @@
+mike@jupiter:~/thesis/benchmarks/sorting$ go run sorting.go 100000
+integers:
+    made ordered integer array  0.000 s
+    shuffled  0.002 s
+    ran heapsort  0.016 s
+    ran mergesort  0.010 s
+    ran quicksort  0.007 s
+    ran native sort  0.020 s
+strings:
+    made ordered string array  0.004 s
+    shuffled  0.002 s
+    ran quicksort  0.026 s
+    ran native sort  0.042 s
+objects:
+    made student objects  0.004 s
+    shuffled  0.003 s
+    ran native sort  0.046 s
+mike@jupiter:~/thesis/benchmarks/sorting$ go run sorting.go 1000000
+integers:
+    made ordered integer array  0.001 s
+    shuffled  0.025 s
+    ran heapsort  0.210 s
+    ran mergesort  0.119 s
+    ran quicksort  0.085 s
+    ran native sort  0.237 s
+strings:
+    made ordered string array  0.035 s
+    shuffled  0.038 s
+    ran quicksort  0.331 s
+    ran native sort  0.542 s
+objects:
+    made student objects  0.041 s
+    shuffled  0.048 s
+    ran native sort  0.637 s

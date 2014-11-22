@@ -1,0 +1,26 @@
+$ ./sorting.php 100000
+integers:
+    made ordered integer array in 0.010 s
+    permuted randomly in 0.036 s
+strings:
+    made ordered string array in 0.051 s
+    permuted randomly in 0.040 s
+objects:
+    made student objects in 0.035 s
+    permuted randomly in 0.013 s
+    usort: closure in 1.127 s
+    usort: named function in 0.891 s
+
+$ hhvm ./sorting.php 100000
+integers:
+    made ordered integer array in 0.003 s
+    permuted randomly in 0.009 s
+strings:
+    made ordered string array in 0.025 s
+    permuted randomly in 0.009 s
+objects:
+    made student objects in 0.007 s
+    permuted randomly in 0.006 s
+    usort: closure in 0.365 s
+    usort: named function in 0.278 s
+
